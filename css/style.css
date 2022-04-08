@@ -9,16 +9,76 @@ body{
     font-size: 1.125rem;
     font-family: 'Poppins', sans-serif;
     color: #28353E;
+    line-height: 1.6;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+/* =================
+Typography
+================== */
+
+h1, 
+h2, 
+p, 
+a, 
+img{
+    margin: 0;
+}
+
+h1{
+    font-size: 3rem;
+    line-height: 1.1;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+
+
+.btn{
+    display: inline-block;
+    margin-top: 2em;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 2em;
+    padding: .75em 1.25em;
+    border-radius: 40em;
+}
+
+.btn-free-link{
+    color: #083D52;
+    background-color: #fff;
+}
+
+.btn-free-link:hover,
+.btn-free-link:focus{
+    color: #083D52;
+    background-color: #FFB800;
+}
+
+
+.btn-demo-link{
+    border: 2px solid #fff;
+}
+
+.btn-demo-link:hover,
+.btn-demo-link:focus{
+    background-color: #083D52;
+    border: 0;
 }
 
 
 
 
-
-
-
-
-nav ul{
+/* nav ul{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -47,4 +107,35 @@ nav a:focus{
     flex-direction: column;
     background-color: #286CFF;
     text-align: center;
+} */
+
+
+.hero{
+    color: #fff;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3em 1em;
+    
+}
+
+
+.hero-section{
+    background-color: #286CFF;
+}
+
+.hero-img{
+    margin-bottom: 2em;
+    padding: 0 1em;
+}
+
+.pricing-plans{
+    background: rgba(40, 108, 255, 10%)
 }
