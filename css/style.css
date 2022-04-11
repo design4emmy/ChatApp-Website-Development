@@ -53,6 +53,8 @@ h2{
     border-radius: 40em;
 }
 
+
+
 .btn-free-link{
     color: #083D52;
     background-color: #fff;
@@ -72,6 +74,44 @@ h2{
 .btn-demo-link:hover,
 .btn-demo-link:focus{
     background-color: #083D52;
+    border: 0;
+}
+
+.hero{
+    color: #fff;
+    background-color: #286CFF;
+}
+
+.hero-section{
+    padding: 10em 0;
+}
+
+
+.hero-links,
+.price-links{
+    margin-bottom: 2em;
+}
+
+.price-free-link{
+    color: #fff;
+    background-color: #286CFF;
+}
+
+.price-free-link:hover,
+.price-free-link:focus {
+    color: #083D52;
+    background-color: #FFB800;
+}
+
+.price-demo-link{
+    border: 2px solid #286CFF;
+    color: #083D52;
+}
+
+.price-demo-link:hover,
+.price-demo-link:focus{
+    background-color: #083D52;
+    color: #fff;
     border: 0;
 }
 
@@ -110,9 +150,7 @@ nav a:focus{
 } */
 
 
-.hero{
-    color: #fff;
-}
+
 
 
 
@@ -123,12 +161,8 @@ nav a:focus{
     max-width: 800px;
     margin: 0 auto;
     padding: 3em 1em;
+    align-items;: center
     
-}
-
-
-.hero-section{
-    background-color: #286CFF;
 }
 
 .hero-img{
@@ -136,6 +170,52 @@ nav a:focus{
     padding: 0 1em;
 }
 
+.team-chat{
+    text-align: center;
+    padding: 6em 0;
+}
+
 .pricing-plans{
     background: rgba(40, 108, 255, 10%)
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-icons{
+    max-width: 30%;
+}
+
+.testimonial-content{
+    font-size: .75rem;
+}
+
+@media (min-width: 650px){
+    
+    h1{
+        font-size: 4rem;
+    }
+    
+    .hero-section{
+        flex-direction: row;
+        align-items: center;
+        padding: 6em 0;
+    }    
+
+
+    .team-chat{
+        width: 50%;
+    }
+
+    .plan{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5em 0;
+    }
+
+    .plan-content{
+        margin-left: .5em;
+    }
 }
